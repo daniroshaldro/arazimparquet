@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ארז פרקטים</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/302d1e1cd1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <img
+          src="./images/PHOTO-2023-08-28-20-10-27.jpg"
+          class="logo"
+          alt="ארז פרקטים סמל"
+        />
+        <nav class="toleft">
+          <ul id="sidemenue">
+            <li><a href="#header">בית</a></li>
+            <li><a href="#about">על החברה</a></li>
+            <li><a href="#services">קטגוריות</a></li>
+            <li><a href="#portfolio">תיק עבודות</a></li>
+            <li><a href="#contact">צרו קשר</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+        </nav>
+        <!--על החברה-->
+        <div class="header-text">
+          <p>ארזים דלתות ופרקטים</p>
+          <h1>
+            החברה לייצור הפרקטים<br />
+            <span>הכי</span> טובה בישראל
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="./images/PHOTO-2023-08-28-20-10-27.jpg"
+              alt="תמונת רקע על החברה"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">על החברה</h1>
+            <p>
+              כבר יותר מ - 15 שנה שאנחנו מתמחים בשיווק ועיצוב דלתות פנים
+              איכותיות. אנחנו ב- ”ארזים דלתות ופרקטים“ מאמינים שדלתות פנים הן
+              חלק בלתי נפרד מהתפיסה העיצובית של כל חלל, ביתי או משרדי. את דלתות
+              הפנים אפשר לראות כמעט מכל פינה בבית - לכן הן מוצר איכות שמתפקד גם
+              כאלמנט עיצובי מרכזי. לרשות לקוחותינו עומד צוות מסור ומוכשר באולמות
+              התצוגה, יועצי המכירות מלווים את הלקוח ומתאימים את הדלתות הנכונות
+              ביותר עבורו, מבחינה עיצובית, פרקטית ותקציבית. כל זאת לצד היחס
+              האישי, החם והמסור המאפיין אותנו שנים רבות. לצד צוות המכירות, עומד
+              לרשותכם צוות המתקינים המקצועי והמנוסה שלנו אשר יבטיח את התוצאה
+              הסופית הטובה ביותר אצלכם בבית או במשרד. המוצרים של ”דלתות דרור“
+              כוללים קולקציות שונות ומרובות הן של דלתות למינטו פורמייקה המגיעים
+              אלינו מהמפעלים הגדולים והמובילים באיטליה, והן של דלתות צבע בייצור
+              עצמי במגוון רחב של עיצובים וסגנונות. את המבחר הרב ניתן לראות בכל
+              אחד מאולמות התצוגה שלנו הפרוסים ברחבי הארץ. ברשות חברתנו עומד
+              המיכון המתקדם ביותר בענף, אשר מבטיח את התוצאה הטובה ביותר אצלכם
+              בבית. העובדה שהרשת הינה יבואנית ומשווקת עצמאית של מוצריה, מאפשרת
+              לנו להעניק לכם את המחירים האטרקטיביים ביותר וזאת מבלי להתפשר על
+              איכות המוצרים הגבוהה. כעסק משפחתי אשר התרחב במהלך השנים לרשת דלתות
+              מובילה בישראל, חשוב לנו מאוד לשים את הלקוח במרכז, כדי לספק לו מוצר
+              באיכות בלתי מתפשרת לצד רמת שירות גבוהה לשביעות רצונו המתמשכת.
+            </p>
+            <!--<div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('title')">
+                כותרת
+              </p>
+              <p class="tab-links" onclick="opentab('title2')">כותרת</p>
+              <p class="tab-links" onclick="opentab('title3')">כותרת</p>
+            </div>-->
+            <!--<div class="tab-contents active-tab" id="title">
+              <ul>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="title2">
+              <ul>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="title3">
+              <ul>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+                <li><span>כותרת</span><br />יהיה פה טקסט בעתיד</li>
+              </ul>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--קטגוריות-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle toleft">קטגוריות</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="./images/PHOTO-2023-08-28-20-25-58.jpg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>בוצר עץ</h3>
+              <a href="wood.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/PHOTO-2023-08-28-20-08-09.jpg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>Spc - fishbon</h3>
+              <a href="spc-fishbon.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/PHOTO-2023-08-28-20-08-08.jpg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>Fishbon</h3>
+              <a href="fishbon.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 20.17.29.jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>מדרגות אף גושני</h3>
+              <a href="stairs.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 20.14.06.jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>Spc</h3>
+              <p>republic</p>
+              <a href="spc.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/euro.jpeg" alt="תמונה תיק עבודות" />
+            <div class="layer">
+              <h3>Krono</h3>
+              <p>Germany krono, Organic krono, Euro home krono</p>
+              <a href="krono.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 20.09.45.jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>Art floor</h3>
+              <a href="artfloor.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 19.55.07.jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>Quick step</h3>
+              <p>Liminate impressive, liminate eligna</p>
+              <a href="quickstep.html"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="images/דלתות דרור קטלוג 2022.pdf" download class="btn"
+          >צפה בקטגוריית דלתות</a
+        >
+      </div>
+    </div>
+    <!--תיק עבודות-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle toleft">תיק עבודות</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 20.17.29 (2).jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>כותרת</h3>
+              <!--<p>יהיה פה טקסט בעתיד</p>-->
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 20.17.29 (2).jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>כותרת</h3>
+              <!--<p>יהיה פה טקסט בעתיד</p>-->
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="./images/WhatsApp Image 2023-06-16 at 20.17.29 (2).jpeg"
+              alt="תמונה תיק עבודות"
+            />
+            <div class="layer">
+              <h3>כותרת</h3>
+              <!--<p>יהיה פה טקסט בעתיד</p>-->
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">צפו בעוד</a>
+      </div>
+    </div>
+    <!--צור קשר-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left toleft">
+            <h1 class="subtitle">צור קשר</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> usermail@mail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 0541111111</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form class="toleft" name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="השם שלך" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="המייל שלך"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="ההודעה שלך"
+              ></textarea>
+              <button type="submit" class="btn btn2">שלח</button>
+            </form>
+            <span id="msg" class="toleft"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>זכויות יוצרים© ניב חחיאשוילי</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
